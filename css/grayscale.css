@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #95040B;
+    color: #C78900;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #BC0100;
+    color: #FFB615;
 }
 
 .light {
@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/forest-night.jpeg) no-repeat bottom center scroll;
+    background: url(../img/cover-img.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -268,7 +268,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/hitman-legs-optimized.jpeg) no-repeat center center scroll;
+    background: url(../img/forest-night.jpeg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -308,8 +308,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #95040B;
-    color: #95040B;
+    border: 1px solid #C78900;
+    color: #C78900;
     background-color: transparent;
 }
 
@@ -337,10 +337,10 @@ input {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #BC0100;
+    border: 1px solid #FFB615;
     outline: 0;
     color: #000;
-    background-color: #BC0100;
+    background-color: #FFB615;
 }
 
 ul.banner-social-buttons {
