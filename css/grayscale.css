@@ -122,6 +122,10 @@ a:focus {
     color: #fff;
 }
 
+.navbar-brand {
+    padding: 0px;
+}
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -268,12 +272,28 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
     background: url(../img/forest-night.jpeg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.team-section {
+    padding: 100px 0px;
 }
 
 #map {
@@ -346,6 +366,31 @@ input {
 ul.banner-social-buttons {
     margin-top: 0;
 }
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+
+}
+
+.team-member {
+    max-width: 200px;
+}
+
+    .team-member img {
+        margin-bottom: 1em;
+    }
+
+    .team-member h4 {
+        font-size: 1.5em;
+    }
+
+    .team-member p {
+        font-size: 1.0em;
+    }
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
