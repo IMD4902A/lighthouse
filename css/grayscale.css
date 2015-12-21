@@ -279,6 +279,24 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+    .download-section p {
+        text-align: center !important;
+    }
+
+.arduino-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/arduinopowered.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+    .arduino-section p {
+        text-align: center !important;
+    }
 
 .contact-section {
     width: 100%;
@@ -304,11 +322,15 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 0px;
     }
 
-    .download-section {
+    .download-section, .about-section {
         padding: 100px 0;
+    }
+
+    .arduino-section {
+        padding: 200px 0;
     }
 
     #map {
